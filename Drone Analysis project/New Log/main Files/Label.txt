@@ -1,0 +1,105 @@
+
+Rate
+array([[array(['LineNo'], dtype='<U6')],
+       [array(['TimeUS'], dtype='<U6')],
+       [array(['RDes'], dtype='<U4')],
+       [array(['R'], dtype='<U1')],
+       [array(['ROut'], dtype='<U4')],
+       [array(['PDes'], dtype='<U4')],
+       [array(['P'], dtype='<U1')],
+       [array(['POut'], dtype='<U4')],
+       [array(['YDes'], dtype='<U4')],
+       [array(['Y'], dtype='<U1')],
+       [array(['YOut'], dtype='<U4')],
+       [array(['ADes'], dtype='<U4')],
+       [array(['A'], dtype='<U1')],
+       [array(['AOut'], dtype='<U4')],
+       [array(['AOutSlew'], dtype='<U8')]], dtype=object)
+
+
+
+
+
+
+
+ATT
+
+
+
+
+
+array([[array(['LineNo'], dtype='<U6')],
+       [array(['TimeUS'], dtype='<U6')],
+       [array(['DesRoll'], dtype='<U7')],
+       [array(['Roll'], dtype='<U4')],
+       [array(['DesPitch'], dtype='<U8')],
+       [array(['Pitch'], dtype='<U5')],
+       [array(['DesYaw'], dtype='<U6')],
+       [array(['Yaw'], dtype='<U3')],
+       [array(['ErrRP'], dtype='<U5')],
+       [array(['ErrYaw'], dtype='<U6')],
+       [array(['AEKF'], dtype='<U4')]], dtype=object)
+
+
+IMU
+
+
+
+
+
+
+
+array([[array(['LineNo'], dtype='<U6')],
+       [array(['TimeUS'], dtype='<U6')],
+       [array(['I'], dtype='<U1')],
+       [array(['GyrX'], dtype='<U4')],
+       [array(['GyrY'], dtype='<U4')],
+       [array(['GyrZ'], dtype='<U4')],
+       [array(['AccX'], dtype='<U4')],
+       [array(['AccY'], dtype='<U4')],
+       [array(['AccZ'], dtype='<U4')],
+       [array(['EG'], dtype='<U2')],
+       [array(['EA'], dtype='<U2')],
+       [array(['T'], dtype='<U1')],
+       [array(['GH'], dtype='<U2')],
+       [array(['AH'], dtype='<U2')],
+       [array(['GHz'], dtype='<U3')],
+       [array(['AHz'], dtype='<U3')]], dtype=object)
+
+
+
+
+VIBE
+
+
+array([[array(['LineNo'], dtype='<U6')],
+       [array(['TimeUS'], dtype='<U6')],
+       [array(['IMU'], dtype='<U3')],
+       [array(['VibeX'], dtype='<U5')],
+       [array(['VibeY'], dtype='<U5')],
+       [array(['VibeZ'], dtype='<U5')],
+       [array(['Clip'], dtype='<U4')]], dtype=object)
+
+
+
+
+gps
+
+
+array([[array(['LineNo'], dtype='<U6')],
+       [array(['TimeUS'], dtype='<U6')],
+       [array(['I'], dtype='<U1')],
+       [array(['Status'], dtype='<U6')],
+       [array(['GMS'], dtype='<U3')],
+       [array(['GWk'], dtype='<U3')],
+       [array(['NSats'], dtype='<U5')],
+       [array(['HDop'], dtype='<U4')],
+       [array(['Lat'], dtype='<U3')],
+       [array(['Lng'], dtype='<U3')],
+       [array(['Alt'], dtype='<U3')],
+       [array(['Spd'], dtype='<U3')],
+       [array(['GCrs'], dtype='<U4')],
+       [array(['VZ'], dtype='<U2')],
+       [array(['Yaw'], dtype='<U3')],
+       [array(['U'], dtype='<U1')]], dtype=object)
+
